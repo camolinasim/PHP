@@ -1,0 +1,14 @@
+What's inside of this code:
+Info folder works well
+New folder works well
+
+Play folder has some issues I was never able to solve. But here's what I
+took care of:
+
+*ack_move class takes care of the user's moves logic (i.e. isWin, isDraw)
+and is able to return a UserWinningPlay array containing the 4 winning moves
+of the user)
+
+Move is the AI's class. Only random strategy works, but it is able to do
+isWin(), isDraw() well and can also return a AIWinningPlay array containing
+the 4 winning moves of the AI.
